@@ -1,17 +1,24 @@
 $primary-font: "Poppins", sans-serif;
+$primary-color:#233d62;
+$secondary-color:#fe6347;
+$tirtiary-color: #727b99;
+
 @mixin title {
   font-family: $primary-font;
   font-size: 1.875rem;
+  color: $primary-color;
 }
 @mixin paragraph_text {
   font-family: "Lora", serif;
   font-size: 1.375rem;
+  color: $tirtiary-color;
 }
 
 body {
   h1 {
     font-family: $primary-font;
     font-size: 3rem;
+    color: $primary-color
   }
   h2 {
     @include title();
@@ -22,6 +29,18 @@ body {
   header {
     .hero_img {
       height: 80%;
+    }
+    .our_btn{
+        color: white;
+        background-color: $secondary-color;
+        border-radius: 2rem;
+        font-family: $primary-font;
+        padding: 1rem 3rem;
+
+        &:hover{
+            border: #233d62;
+            background-color: none;
+        }
     }
   }
 }
