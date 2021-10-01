@@ -1,9 +1,19 @@
-body {
+body h1 {
   font-family: "Poppins", sans-serif;
+  font-size: 3rem;
 }
 
-body .para_text {
+body h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875rem;
+}
+
+body p {
   font-family: "Lora", serif;
   font-size: 1.375rem;
+}
+
+body header .hero_img {
+  height: 80%;
 }
 /*# sourceMappingURL=style.css.map */

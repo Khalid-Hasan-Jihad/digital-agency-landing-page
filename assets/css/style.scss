@@ -1,7 +1,27 @@
+$primary-font: "Poppins", sans-serif;
+@mixin title {
+  font-family: $primary-font;
+  font-size: 1.875rem;
+}
+@mixin paragraph_text {
+  font-family: "Lora", serif;
+  font-size: 1.375rem;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
-  .para_text {
-    font-family: "Lora", serif;
-    font-size: 1.375rem;
+  h1 {
+    font-family: $primary-font;
+    font-size: 3rem;
+  }
+  h2 {
+    @include title();
+  }
+  p {
+    @include paragraph_text();
+  }
+  header {
+    .hero_img {
+      height: 80%;
+    }
   }
 }
