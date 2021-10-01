@@ -29,7 +29,16 @@ body header .our_btn {
 }
 
 body header .our_btn:hover {
-  border: #233d62;
-  background-color: none;
+  border: 2px solid #233d62;
+  background-color: white;
+  color: #233d62;
+}
+
+body main .our_card:hover {
+  -webkit-box-shadow: 0 0 20px #233d6254;
+          box-shadow: 0 0 20px #233d6254;
+  border-radius: 2rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 /*# sourceMappingURL=style.css.map */
