@@ -57,4 +57,17 @@ body .red_text {
   line-height: 0%;
   font-size: 1rem;
 }
+
+body .work_effect {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #233d62;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+body .work_effect:hover {
+  color: #fe6347;
+}
 /*# sourceMappingURL=style.css.map */
