@@ -29,6 +29,29 @@ $tirtiary-color: #727b99;
 }
 
 body {
+  li {
+    font-family: $primary-font;
+    color: #727b99;
+    &:hover {
+      color: #233d62;
+      font-weight: 700;
+      transition-duration: 0.2s;
+    }
+  }
+  .contact_btn {
+    color: white;
+    background-color: $secondary-color;
+    border-radius: 2rem;
+    font-family: $primary-font;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    &:hover {
+      border: 2px solid #233d62;
+      background-color: white;
+      color: #233d62;
+      font-weight: 500;
+    }
+  }
   h1 {
     font-family: $primary-font;
     font-size: 3rem;
@@ -74,7 +97,7 @@ body {
       color: $secondary-color;
     }
   }
-  .label_text{
+  .label_text {
     font-family: $primary-font;
     color: #233d62;
     font-size: 1rem;
