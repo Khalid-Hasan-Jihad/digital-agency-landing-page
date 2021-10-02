@@ -22,8 +22,8 @@
         <!-- nav start -->
         <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background: rgba(255, 255, 255, 0)">
           <div class="container">
-            <a class="navbar-brand" href="#">&nbsp;<img class="img-fluid" src="assets/img/logo.png" /></a
-            ><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand" href="#">&nbsp;<img class="img-fluid" src="assets/img/logo.png" /></a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
               <ul class="navbar-nav me-auto">
                 <li class="nav-item">
@@ -127,51 +127,64 @@
         </div>
         <!-- items  -->
         <div class="row">
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="w-50 d-flex flex-row justify-content-between">
-              <a href="#" class="work_effect">All</a>
-              <a href="#" class="work_effect">Web Design</a>
-              <a href="#" class="work_effect">App</a>
-              <a href="#" class="work_effect">Paragraph</a>
+          <div class="col d-flex justify-content-center mb-5">
+            <div class="w-50 d-flex justify-content-between align-items-center media_q">
+              <div><a href="#" class="work_effect">All</a></div>
+              <div><a href="#" class="work_effect">Web Design</a></div>
+              <div><a href="#" class="work_effect">App</a></div>
+              <div><a href="#" class="work_effect">Paragraph</a></div>
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col">
-            <img class="img-fluid" src="assets/img/3.png" />
+        <!-- portfolio images -->
+        <div class="row mb-5">
+          <div class="col-12 col-xl-4 col-xxl-4 col-lg-6 col-sm-12 col-md-6">
+            <img class="img-fluid p-1" src="assets/img/3.png" />
           </div>
-          <div class="col">
-            <img class="img-fluid" src="assets/img/3.png" />
+          <div class="col-12 col-xl-4 col-xxl-4 col-lg-6 col-sm-12 col-md-6">
+            <img class="img-fluid p-1" src="assets/img/3.png" />
           </div>
-          <div class="col">
-            <img class="img-fluid" src="assets/img/3.png" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col"><a href="#">Learn More</a></div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <img class="img-fluid" src="assets/img/monitor-illustration.png" />
-          </div>
-          <div class="col">
-            <h2>Need a Help? Don't Worry Just contact us&nbsp;</h2>
-            <p>Name</p>
-            <input type="text" />
-            <p>Email</p>
-            <input type="text" /><input class="form-control-plaintext" type="text" value="Plain Text Value" readonly="" /><a href="#">Sent</a>
+          <div class="col-12 col-xl-4 col-xxl-4 col-lg-6 col-sm-12 col-md-6">
+            <img class="img-fluid p-1" src="assets/img/3.png" />
           </div>
         </div>
+        <!-- button  -->
+        <div class="row mb-5">
+          <div class="col d-flex justify-content-center align-items-center">
+            <a class="our_btn" href="#">Learn More</a>
+          </div>
+        </div>
+        <!-- input table  -->
+        <div class="row mb-5 mt-5">
+          <div class="col-12 col-xl-6 col-xxl-6 col-lg-6 col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+            <img class="img-fluid w-75" src="assets/img/monitor-illustration.png" />
+          </div>
+          <div class="col-12 col-xl-6 col-xxl-6 col-lg-6 col-sm-12 col-md-6 d-flex flex-column justify-content-center justify-content-lg-start justify-content-md-start justify-content-xl-start justify-content-xxl-start justify-content-sm-start align-items-center align-items-lg-start align-items-md-start align-items-sm-start align-items-xl-start align-items-xxl-start">
+            <h2 class="mb-4 mt-4 text-center text-sm-center text-md-start text-lg-start text-xl-start text-xxl-start">
+              Need a Help?<br />
+              Don't Worry Just contact us&nbsp;
+            </h2>
+            <p class="label_text">Name</p>
+            <input class="form-control mb-4 w-75 input_style" placeholder="Enter your name" type="text" />
+            <p class="label_text">Email</p>
+            <input class="form-control mb-4 w-75 input_style" placeholder="Enter your Email" type="email" />
+            <p class="label_text">Messege</p>
+            <textarea class="form-control mb-4 w-75 input_style" placeholder="Give your opinion" name="messege" id="" cols="30" rows="4"></textarea>
+            <a type="submit" class="our_btn" href="#">Submit</a>
+          </div>
+        </div>
+        <!-- Email submission -->
         <div class="row">
-          <div class="col">
-            <h2>Have Questions in mind? Let us help you</h2>
-            <input type="text" /><a href="#">Sent</a>
+          <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+            <h2 class="mb-4 mt-4 text-center text-sm-center">Have Questions in mind?<br> Let us help you</h2>
+            <input class="form-control mb-4 w-75 w-sm-75 w-lg-50 w-md-50 w-xl-50 w-xxl-50 input_style" placeholder="Enter your Email" type="email" />
+            <a class="our_btn" href="#">Sent</a>
           </div>
         </div>
       </div>
     </main>
-    <footer class="footer-basic">
+
+    <footer class="footer-basic mt-5">
       <div class="social">
         <a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
       </div>
@@ -182,7 +195,7 @@
         <li class="list-inline-item"><a href="#">Terms</a></li>
         <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
       </ul>
-      <p class="copyright">Company Name © 2021</p>
+      <p class="copyright">Digital Agency © 2021</p>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
