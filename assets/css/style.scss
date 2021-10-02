@@ -7,11 +7,25 @@ $tirtiary-color: #727b99;
   font-family: $primary-font;
   font-size: 1.875rem;
   color: $primary-color;
+  font-weight: bold;
 }
 @mixin paragraph_text {
   font-family: "Lora", serif;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   color: $tirtiary-color;
+}
+@mixin btn_effect {
+  color: white;
+  background-color: $secondary-color;
+  border-radius: 2rem;
+  font-family: $primary-font;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  &:hover {
+    border: 2px solid #233d62;
+    background-color: white;
+    color: #233d62;
+  }
 }
 
 body {
@@ -19,6 +33,7 @@ body {
     font-family: $primary-font;
     font-size: 3rem;
     color: $primary-color;
+    font-weight: bold;
   }
   h2 {
     @include title();
@@ -26,28 +41,29 @@ body {
   p {
     @include paragraph_text();
   }
-  header {
-    .hero_img {
-      height: 80%;
-    }
-    .our_btn {
-      color: white;
-      background-color: $secondary-color;
-      border-radius: 2rem;
-      font-family: $primary-font;
-      padding: 1rem 3rem;
-      &:hover {
-        border: 2px solid #233d62;
-        background-color: white;
-        color: #233d62;
-      }
-    }
+  .hero_img {
+    height: 80%;
   }
-  main {
-    .our_card:hover{
-      box-shadow: 0 0 20px #233d6254;
-      border-radius: 2rem;
-      transition-duration: 0.3s;
-    }
+  .our_btn {
+    @include btn_effect();
+  }
+  .our_card:hover {
+    box-shadow: 0 0 20px #233d6254;
+    border-radius: 2rem;
+    transition-duration: 0.3s;
+  }
+  .watch_btn {
+    color: $primary-color;
+    font-family: $primary-font;
+    text-decoration: none;
+  }
+  .red_text{
+    color: $secondary-color;
+    font-family: $primary-font;
+    line-height: 0%;
+    font-size: 1rem;
+  }
+  .work_effect{
+    
   }
 }
