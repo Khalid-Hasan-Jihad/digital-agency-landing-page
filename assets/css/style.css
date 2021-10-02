@@ -70,4 +70,65 @@ body .work_effect {
 body .work_effect:hover {
   color: #fe6347;
 }
+
+body .label_text {
+  font-family: "Poppins", sans-serif;
+  color: #233d62;
+  font-size: 1rem;
+  line-height: 0px;
+  font-weight: 500;
+}
+
+body .input_style {
+  background: transparent;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #233d62;
+  border: 2px solid #233d6250;
+}
+
+body .input_style:hover {
+  border: 2px solid #fe634781;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+@media screen and (min-width: 570px) {
+  body .media_q {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body .media_q {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
